@@ -4,7 +4,11 @@
 #
 #    pip-compile --no-index -r
 #
-colorama==0.4.1           # via crayons
+colorama==0.4.1
+    # via crayons
 crayons==0.2.0
+    # via -r requirements.in
 feedparser==5.2.1
-pyyaml==5.1
+    # via -r requirements.in
+pyyaml==5.4
+    # via -r requirements.in
